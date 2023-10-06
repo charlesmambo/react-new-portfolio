@@ -1,13 +1,53 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: var(--color-bg);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  position: relative;
+}
+
+:root {
+   --color-bg: #EAD7BB;
+   --color-nav-bg: #113946;
+   --text-color: #DAFFFB;
+   --icon-color: #F4E869;
+   --hero-bg: #016a70a4;
+   --color-dark: #213555;
+
+   --container-width-lg: 97%;
+   --container-width-md: 98%;
+   --container-width-sm: 99%;
+
+   --container-padding: 1.4rem 2rem;
+
+
+   --transition: transition: all 0.4s ease-in;
+   --border-radius: 0.3rem;
+}
+
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px){
+  .container {
+    width: var(--container-width-md);
+  }
+}
+@media screen and (max-width: 600px){
+  .container {
+    width: var(--container-width-sm);
+  }
 }

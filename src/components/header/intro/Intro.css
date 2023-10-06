@@ -1,0 +1,85 @@
+
+.intro-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: var( --container-padding);
+}
+
+.profile-img-container {
+    width: 18rem;
+    height: 18rem;
+    aspect-ratio: 1/1;
+    border-radius: var(--border-radius);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.profile-img-container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   border-radius: var(--border-radius);
+}
+
+.profile-content {
+    margin-top: 1.4rem;
+    width: 34%;
+    text-align: center;
+    color: var(--color-dark);
+}
+
+.profile-content p{
+    font-size: 1.2rem;
+}
+
+.profile-name {
+    font-family: 'Caveat', cursive;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-bottom: 3px solid var( --color-bg);
+}
+
+.profile-content h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 0.9rem;
+}
+
+
+.profile-icon {
+    font-size: 1.1rem;
+}
+
+.highlighted {
+    color: var(--icon-color);
+}
+
+
+@media screen and (max-width: 1000px){
+    .profile-img-container {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .profile-content {
+        width: 70%;
+    }
+
+    .profile-content h2{
+        font-size: 1.7rem;
+    }
+  } 
+@media screen and (max-width: 600px){
+    .profile-content {
+        width: 100%;
+    }
+
+    .profile-content h2{
+        font-size: 1.5rem;
+    }
+  } 
