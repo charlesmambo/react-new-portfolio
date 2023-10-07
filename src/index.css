@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@300;600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -31,8 +31,10 @@ body {
    --container-padding: 1.4rem 2rem;
 
 
-   --transition: transition: all 0.4s ease-in;
+   --transition: transition: all 0.4s;
    --border-radius: 0.3rem;
+
+   --text-transform: capitalize;
 }
 
 
