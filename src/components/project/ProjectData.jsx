@@ -1,8 +1,9 @@
 import MusicApp from '../../assets/music-app.png';
-import Bookmark from '../../assets/bookmark-landingp.png';
+import Bookmark from '../../assets/book2.png';
 import ExpenseTracker from '../../assets/extrack.png';
 import Easybank from '../../assets/easybank.png';
 import Todojs from '../../assets/todojs.png';
+import ManageBank from '../../assets/manage.png';
 
 const Projects = [
     {
@@ -39,11 +40,11 @@ const Projects = [
     },
     {
         id: 5,
-        img: Todojs,
-        name: "todo list",
-        description: " To-do list—it's a food app crafted with HTML, CSS, and JavaScript. It boasts local storage, allowing you to input any kind of food you plan to order. Once you've added all the details, they're securely stored in local storage. Even if you accidentally refresh the page, rest assured that your information will remain intact.",
-        url: "https://chimerical-tartufo-1760c3.netlify.app/",
-        github: "https://github.com/charlesmambo/local-tapas-todolist"
+        img: ManageBank,
+        name: "manage landing page",
+        description: "I created the Manage landing page using a combination of HTML, CSS, JavaScript, and Canva. It's designed to be user-friendly and responsive on various devices. The goal was to enhance my skills by constructing something practical and enjoyable for users. This project offers straightforward guidance on managing and developing superior products.",
+        url: "https://joyful-granita-2d210f.netlify.app/",
+        github: "https://github.com/charlesmambo/manage-landing-page"
     },
     {
         id: 6,

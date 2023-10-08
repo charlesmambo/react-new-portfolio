@@ -54,7 +54,7 @@ const Header = () => {
                         <a href="#">projects</a>
                     </li>
                     <li>
-                        <a href="#">contact</a>
+                        <a href="#">contact me</a>
                         <span><AiOutlinePhone className='contact-icon'/></span>
                     </li>
                 </ul>
@@ -102,7 +102,7 @@ const Header = () => {
                         <a href="#">projects</a>
                     </li>
                     <li className='contact'>
-                        <a href="#">contact</a>
+                        <a href="#">contact me</a>
                         <span className='con-icon'><AiOutlinePhone className='pop-up-icon'/></span>
                     </li>
                 </ul>

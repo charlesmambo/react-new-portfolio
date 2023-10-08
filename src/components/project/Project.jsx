@@ -30,7 +30,7 @@ function Project() {
                     </div>
                     <div className="card-content">
                         <h5>{project.name}</h5>
-                        <p>{TruncateText(project.description, 200)}</p>
+                        <p>{TruncateText(project.description, 240)}</p>
 
                         <div className='card-links'>
                             <a href={project.url} target="_blank" className='live-link'>see more 
